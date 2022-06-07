@@ -376,7 +376,6 @@ nav img {
     height: 15%;
     border: 5px solid rgba(59, 57, 57, 0.1);
     border-radius: 10px;
-
 }
 
 .blog-content img {
@@ -594,4 +593,37 @@ nav img {
     font-size: 20px;
     margin-left: 240px;
     padding: 12px 34px;
+}
+
+.timkiem {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.timkiem1 {
+    width: 100%;
+    border: 3px solid rgb(238, 14, 14);
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+
+}
+
+.timkiem1:focus {
+    color: rgb(238, 14, 14);
+}
+
+.nuttimkiem {
+    width: 40px;
+    height: 36px;
+    border: 1px solid rgb(238, 14, 14);
+    background: rgb(238, 14, 14);
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
 }
