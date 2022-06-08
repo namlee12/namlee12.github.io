@@ -7,7 +7,7 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(to right, rgba(17, 16, 16, 0.56), rgba(100, 93, 93, 0.1)), url(https://1.bp.blogspot.com/-CfryTEAQrcg/X4gx6EJNhiI/AAAAAAAAA-M/Fmj-lJqb_Ew1V_H4uQ8f_ettLb_1uczhwCLcBGAsYHQ/s16000/abc.jpg);
+    background-image: linear-gradient(to right, rgba(8, 2, 2, 0.56), rgba(100, 93, 93, 0.1)), url(https://1.bp.blogspot.com/-CfryTEAQrcg/X4gx6EJNhiI/AAAAAAAAA-M/Fmj-lJqb_Ew1V_H4uQ8f_ettLb_1uczhwCLcBGAsYHQ/s16000/abc.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -40,6 +40,11 @@ nav img {
     color: yellow;
     text-decoration: none;
     font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 40px;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 5px;
 }
 
 .nav-links ul li::after {
@@ -513,7 +518,7 @@ nav img {
 }
 
 .top-tracuu {
-    background-color: rgb(132, 132, 248);
+    background-color: rgb(238, 64, 64);
     width: 10%;
     height: 50px;
     margin: 20px;
@@ -589,13 +594,16 @@ nav img {
 
 .bangdiem {
     width: 80%;
-    margin-left: 10%;
+    margin-left: 7%;
     height: 50%;
     line-height: 50px;
     text-align: center;
-    font-size: 20px;
-    margin-left: 10%;
+    font-size: 18px;
     padding: 12px 34px;
+}
+
+.odiem {
+    width: 100%;
 }
 
 .timkiem {
